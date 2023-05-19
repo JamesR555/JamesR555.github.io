@@ -12,6 +12,34 @@ p {
   color: #666;
 }
 
+body.menu-open {
+  overflow: hidden;
+}
+
+.menu {
+  position: fixed;
+  top: 50%;
+  left: -200px;
+  width: 200px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  transition: left 0.3s ease;
+}
+
+.menu.open {
+  left: 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+}
+
 .return-home {
   text-align: center;
   margin-top: 20px;
