@@ -1,53 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Personal CV</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("menu");
+      menu.classList.toggle("open");
+    }
+  </script>
 </head>
 <body>
-  <header>
-    <h1>JR</h1>
-    <p>Job Title</p>
-  </header>
-
-  <main>
-    <section>
-      <h2>About Me</h2>
-      <p>Write a brief description about yourself here111111111111.</p>
-    </section>
-
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li>University Name - Degree, Year</li>
-        <li>High School Name - Graduation Year</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Experience</h2>
-      <ul>
-        <li>Company Name - Job Title, Start Date to End Date</li>
-        <li>Company Name - Job Title, Start Date to End Date</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>Skill 1</li>
-        <li>Skill 2</li>
-        <li>Skill 3</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Contact</h2>
-      <p>Email: your.email@example.com</p>
-      <p>Phone: +123456789</p>
-      <p>Website: www.example.com</p>
-    </section>
-  </main>
+  <button onclick="toggleMenu()">Menu</button>
+  <div id="menu" class="menu">
+    <ul>
+      <li><a href="3dprinting.html">3D Printing</a></li>
+      <li><a href="3ddesign.html">3D Design</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+    </ul>
+  </div>
 </body>
 </html>
