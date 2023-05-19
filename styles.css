@@ -40,7 +40,6 @@ body.menu-open {
   margin-bottom: 10px;
 }
 
-.return-home {
-  text-align: center;
-  margin-top: 20px;
+.content {
+  margin-left: 220px; /* Adjust this value to create space for the menu */
 }
