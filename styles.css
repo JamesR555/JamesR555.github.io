@@ -1,24 +1,22 @@
 /* CSS for sub-menu pages */
 body {
-  padding: 20px;
+  padding: 0;
+  margin: 0;
   font-family: Arial, sans-serif;
 }
 
-h1 {
-  color: #333;
-}
-
-p {
-  color: #666;
-}
-
-body.menu-open {
-  overflow: hidden;
+.banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
 }
 
 .menu {
   position: fixed;
-  top: 50%;
+  top: 60px; /* Adjust this value to control the distance from the top */
   left: -200px;
   width: 200px;
   padding: 10px;
@@ -41,5 +39,5 @@ body.menu-open {
 }
 
 .content {
-  margin-left: 220px; /* Adjust this value to create space for the menu */
+  margin-top: 100px; /* Adjust this value to create space for the menu */
 }
